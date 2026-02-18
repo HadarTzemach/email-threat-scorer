@@ -1,4 +1,4 @@
-# Email Threat Scorer — Gmail Add-on
+# Email Threat Scorer - Gmail Add-on
 
 ## Overview
 
@@ -6,7 +6,7 @@ A Gmail Add-on that analyzes opened emails and produces a maliciousness score (0
 
 ## Architecture
 
-The entire solution runs within **Google Apps Script** — no external backend server required. When a user opens an email in Gmail, the add-on automatically triggers, extracts email metadata and content, runs multiple analysis checks, queries VirusTotal for link and file reputation, and displays results in a card UI panel on the right side of Gmail.
+The entire solution runs within **Google Apps Script** - no external backend server required. When a user opens an email in Gmail, the add-on automatically triggers, extracts email metadata and content, runs multiple analysis checks, queries VirusTotal for link and file reputation, and displays results in a card UI panel on the right side of Gmail.
 
 ```
 ┌─────────────────────────────────────────────────┐
